@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.B4p9iGtR.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"holaa/index.md","filePath":"holaa/index.md"}'),o={name:"holaa/index.md"};function n(r,s,c,d,i,p){return t(),a("div")}const m=e(o,[["render",n]]);export{l as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.B4p9iGtR.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"lms-hub/introduction.md","filePath":"lms-hub/introduction.md"}'),n={name:"lms-hub/introduction.md"};function r(a,c,s,i,d,m){return o(),e("div")}const _=t(n,[["render",r]]);export{u as __pageData,_ as default};
