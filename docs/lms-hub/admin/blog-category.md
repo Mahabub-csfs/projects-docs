@@ -23,7 +23,7 @@ To add a new category, you have to click the `Add Category` button
 ![src](/assets/lms/add-blog-category.png)
 
 **Figure 002** : <small>New Category</small>
-
+ 
 Now you have to provide:
 
 <pre>
@@ -32,6 +32,10 @@ Now you have to provide:
    
 
 </pre>
+
+
+
+
 
 ![scr](/assets/lms/blog-category-form.png)
 
