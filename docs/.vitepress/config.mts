@@ -158,7 +158,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              text: "Realese Note", link: "/dashkit-laravel/realese",
+              text: "Realese Note", link: "/dashkit-laravel/releases",
             }
           ]
         },
@@ -170,7 +170,7 @@ export default defineConfig({
           items: [
 
             {
-              text: 'installation', link: "/dashkit-laravel/installation"
+              text: 'Installation', link: "/dashkit-laravel/installation"
               ,
             }
 

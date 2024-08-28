@@ -1,4 +1,4 @@
-## payment History
+## Payment History
 ---
 Key future include:
 
