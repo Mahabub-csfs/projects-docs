@@ -34,13 +34,7 @@ Furthermore, the Dashkit Project supports popular app components such as LMS int
 - Data Tables
 - Error Page
 - Easy to customize
-- More Widgets
-- PHP Framework Laravel
-- MVC architecture Support
-- Package Management with NPM
-- Very Easy to Create your Own Site
-- Neat, clean and simple design
-- Well Commanted Code * 24 *7 Professional Company Support
+
 
 ## Introduction
 

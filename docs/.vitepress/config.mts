@@ -228,7 +228,7 @@ export default defineConfig({
                   text: "Payment History", link: "/dashkit-laravel/payment/payment-history",
                 },
                 {
-                  text: "Payout History", link: "/dashkit-laravel/payment/Payout-history",
+                  text: "Payout History", link: "/dashkit-laravel/payment/payout-history",
                 },
 
               ]
