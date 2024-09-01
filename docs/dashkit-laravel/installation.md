@@ -21,30 +21,32 @@ Before installing our script, ensure that your server meets the following requir
 - `iconv` PHP extension
 - Ensure the `mod_rewrite` Apache module is enabled
 
-
 ### TIP
 
 On this project, we're using the `Laravel 11.x.` Please go to Laravel documentation page for more information.
 
 ## Local Server Devloy
-Go to  project directory and run following command.  
+
+Go to project directory and run following command.
 
 ```
 npm install
 npm run dev
-php artisan serve   
+php artisan serve
 ```
 
+Go to `.env` file. given your database credential and import our `dashkit.sql` file.
+
+```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=
+    DB_USERNAME=
+    DB_PASSWORD=
+```
 
 ## Live Server Devloy
-Create a .htaccess into project directory, and place the code.
-```
-<IfModule mod_rewrite.c>
-RewriteEngine On
-        RewriteRule ^(.+) /public/$1 [L]
-</IfModule>
-
-```
 
 ## Step O1
 
@@ -82,6 +84,8 @@ Database create is done, keep database user, database name, database password in
 
 ![src](/assets/dashkit/completed-user.png)
 
+<b style="color:red">Note</b>: Import our demo `dashkit.sql` file.
+
 ## Upload Application
 
 Now upload file, Your selected folder
@@ -90,8 +94,33 @@ Now upload file, Your selected folder
 
 ![src](/assets/dashkit/file-upload.png)
 
-##  Step 02
+## Step 02
 
 Extract zip file in server
 
-![src](/assets/dashkit/file-upload.png)
+![src](/assets/dashkit/extrac-file.png)
+
+## ENV
+
+Go to `.env` file. given your database credential.
+
+```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=
+    DB_USERNAME=
+    DB_PASSWORD=
+```
+
+## htaccess File
+
+Create a .htaccess into project directory, and place the code.
+
+```
+<IfModule mod_rewrite.c>
+RewriteEngine On
+        RewriteRule ^(.+) /public/$1 [L]
+</IfModule>
+
+```
