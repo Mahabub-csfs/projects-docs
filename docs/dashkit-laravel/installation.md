@@ -4,20 +4,30 @@
 
 Before installing our script, ensure that your server meets the following requirements:
 
-- Apache or other compatible web server
+- Apache, nginx, or another compatible web server
 - PHP >= 8.1 or higher
 - MySQL Database server
-- Vite
+- `PDO` PHP extension
+- `OpenSSL` PHP extension
+- `mbstring` PHP extension
+- `exif` PHP extension
+- `fileinfo` PHP extension
+- `xml` PHP extension
+- `Ctype` PHP extension
+- `JSON` PHP extension
+- `Tokenizer` PHP extension
+- `cURL` PHP extension
+- `zip` PHP extension
+- `iconv` PHP extension
+- Ensure the `mod_rewrite` Apache module is enabled
+
 
 ### TIP
 
 On this project, we're using the `Laravel 11.x.` Please go to Laravel documentation page for more information.
 
-## Local Installation
-
-01. NPM package Install
-02. NPM Devlopment
-03. Live project locally
+## Local Server Devloy
+Go to  project directory and run following command.  
 
 ```
 npm install
@@ -26,9 +36,13 @@ php artisan serve
 ```
 
 
-## Production Installation
+## Live Server Devloy
+Create a .htaccess into project directory, and place the code.
 ```
-npm build
+<IfModule mod_rewrite.c>
+RewriteEngine On
+        RewriteRule ^(.+) /public/$1 [L]
+</IfModule>
 
 ```
 

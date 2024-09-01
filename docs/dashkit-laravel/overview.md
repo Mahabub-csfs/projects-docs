@@ -2,15 +2,14 @@
 
 ---
 
-Welcome to Dashkit – Laravel tailwind Admin & Dashboard Template
-Dashkit - Laravel Dashkit Admin Template, With these template formats, it's very easy to create grab someone's attention around the web page Because the template is built using HTML5, CSS3, tailwind 3.4 + framework and with Sass. So please before you start working with the template take a quick look on the documentation so that you can easily built your website.
+Welcome to Dashkit – Laravel tailwind Admin & Dashboard Template Dashkit - Laravel Dashkit Admin Template, With these template formats, it's very easy to create and grab someone's attention around the web page Because the template is built using HTML5, CSS3, tailwind 3.4 + framework and with Sass. So please before you start working with the template take a quick look on the documentation so that you can easily built your website.
 
-Dashkit is a Premium tailwind Dashboard Template using modern and minimal design. It is fully flexible user-friendly and responsive all Devices. such as  
-sktops, Tablets, and Mobile Devices. Dashkit Modern template is powered with Laravel 11, SASS, & tailwind 3.4 + . This Template Includes 100+ blade.php Pages . We already designed it and you can easily design your website just how you like it. After Purchased this template you will get All Laravel 11 Files, CSS, SCSS and JS Files.
+Dashkit is a Premium tailwind Dashboard Template using modern and minimal design. It is fully flexible user-friendly and responsive all Devices. such as
+sktops, Tablets, and Mobile Devices. Dashkit Modern template is powered with Laravel 11, SASS, & tailwind 3.4 + . This Template Includes 100+ blade.php Pages . We already designed it and you can easily design your website just how you like it. After Purchasing this template you will get All Laravel 11 Files, CSS, SCSS, and JS Files.
 
-It is a fully responsive layout for all type of devices. Works on all major web browsers, Desktop, iPhone, iPad, Tablet and all other smart phone devices
+It is a fully responsive layout for all types of devices. Works on all major web browsers, Desktops, iPhone, iPad, Tablets, and all other smart phone devices
 
-Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will be able to get free download of all features  updates.
+Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will be able to get free download of all features updates.
 
 ---
 
