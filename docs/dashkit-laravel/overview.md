@@ -1,12 +1,19 @@
 ## Dashkit-laravel
----
-The Dashkit Project is a comprehensive and versatile dashboard solution that provides an extensive range of customizable components designed to meet diverse needs. It features various types of dashboards, including those tailored for Learning Management Systems (LMS), e-commerce, project management, and analytics. Each dashboard type is crafted to address specific requirements, such as managing educational content, tracking online sales, overseeing project tasks, or performing in-depth data analysis.
-
-In addition to these core dashboards, the Dashkit Project incorporates essential features necessary for a complete and functional platform. It includes robust authentication mechanisms to ensure secure user access and data protection, maintenance tools for ongoing system upkeep, and customizable error pages to improve user experience. The platform is also designed with future enhancements in mind, allowing for the integration of new features as needs evolve.
-
-Furthermore, the Dashkit Project supports popular app components such as LMS integration, email management, and file management. These components are seamlessly integrated to enhance the overall functionality of the dashboards, providing users with a cohesive and powerful tool for managing their data and operations. Overall, the Dashkit Project is designed to be a dynamic and user-centric solution, catering to a broad spectrum of industry needs while being adaptable to future developments.
 
 ---
+
+Welcome to Dashkit – Laravel tailwind Admin & Dashboard Template
+Dashkit - Laravel Dashkit Admin Template, With these template formats, it's very easy to create grab someone's attention around the web page Because the template is built using HTML5, CSS3, tailwind 3.4 + framework and with Sass. So please before you start working with the template take a quick look on the documentation so that you can easily built your website.
+
+Dashkit is a Premium tailwind Dashboard Template using modern and minimal design. It is fully flexible user-friendly and responsive all Devices. such as  
+sktops, Tablets, and Mobile Devices. Dashkit Modern template is powered with Laravel 11, SASS, & tailwind 3.4 + . This Template Includes 100+ blade.php Pages . We already designed it and you can easily design your website just how you like it. After Purchased this template you will get All Laravel 11 Files, CSS, SCSS and JS Files.
+
+It is a fully responsive layout for all type of devices. Works on all major web browsers, Desktop, iPhone, iPad, Tablet and all other smart phone devices
+
+Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will be able to get free download of all future updates.
+
+---
+
 ## Highlight Features
 
 - LMS-Admain Dashboard
@@ -35,7 +42,6 @@ Furthermore, the Dashkit Project supports popular app components such as LMS int
 - Error Page
 - Easy to customize
 
-
 ## Introduction
 
 ---
@@ -56,7 +62,8 @@ Thank you for purchasing LMSHUB. If you have any questions that are beyond the s
 
 ---
 
-## For Whom This Project 
+## For Whom This Project
+
 ---
 
 The Dashkit Project caters to a wide range of users and organizations needing versatile dashboard solutions. It is ideal for:
