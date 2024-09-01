@@ -1,6 +1,6 @@
 ## Blog Detail
 ---
-Key future include:
+Key features  include:
 
 - Blog details
 - Recent post

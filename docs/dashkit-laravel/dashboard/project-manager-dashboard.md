@@ -1,6 +1,6 @@
 ## Project Manager Dashboard
 ---
-Key future include:
+Key features  include:
 
 - Project status, total task, finance status progress card
 - Task overview bar-chart

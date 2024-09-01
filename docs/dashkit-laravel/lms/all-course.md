@@ -1,6 +1,6 @@
 ## All Course
 ---
-Key future include:
+Key features  include:
 
 
 - All course list

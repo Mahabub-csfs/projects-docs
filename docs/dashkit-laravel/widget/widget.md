@@ -1,7 +1,7 @@
 ## Widget 
 
 ---
-Key future include:
+Key features  include:
 
 - Different color widget
 - Different chart widget

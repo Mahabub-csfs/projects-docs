@@ -1,6 +1,6 @@
 ## Payout History
 ---
-Key future include:
+Key features  include:
 
 
 - Balance card

@@ -1,7 +1,7 @@
 ## Chat 
 
 ---
-Key future include:
+Key features  include:
 
 - Chat list in sidebar
 - Chat area with option

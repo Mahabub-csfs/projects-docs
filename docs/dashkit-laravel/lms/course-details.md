@@ -1,6 +1,6 @@
 ## Course Detail
 ---
-Key future include:
+Key features  include:
 
 
 - course details

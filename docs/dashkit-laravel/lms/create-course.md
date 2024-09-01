@@ -1,6 +1,6 @@
 ## Create Course
 ---
-Key future include:
+Key features  include:
 
 
 - Add new course form

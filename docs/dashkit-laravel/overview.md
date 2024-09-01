@@ -10,7 +10,7 @@ sktops, Tablets, and Mobile Devices. Dashkit Modern template is powered with Lar
 
 It is a fully responsive layout for all type of devices. Works on all major web browsers, Desktop, iPhone, iPad, Tablet and all other smart phone devices
 
-Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will be able to get free download of all future updates.
+Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will be able to get free download of all features  updates.
 
 ---
 
@@ -48,7 +48,7 @@ Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will 
 
 PHP platform based on Laravel Framework 11.x
 
-Created: 10 August 2024
+Created:  1 September 2024
 
 By: CodexShaper
 
@@ -58,7 +58,7 @@ Email: support@codexshaper.com
 
 ---
 
-Thank you for purchasing LMSHUB. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here for quickly support. Thank you so much!
+Thank you for purchasing Dashkit Laravel Premium tailwind Dashboard Template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here for quickly support. Thank you so much!
 
 ---
 
@@ -78,4 +78,4 @@ The Dashkit Project caters to a wide range of users and organizations needing ve
 
 ## Why choose us
 
-- Easy Documentation & Installation:
+- Easy Documentation & Installation

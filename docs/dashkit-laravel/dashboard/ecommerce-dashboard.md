@@ -1,6 +1,6 @@
 ## Ecommerce Dashboard
 ---
-Key future include:
+Key features  include:
 
 - Total sells, total orders, customers, groth progress card
 - Sells overview chart

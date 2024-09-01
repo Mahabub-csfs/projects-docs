@@ -144,11 +144,11 @@ export default defineConfig({
 
       '/dashkit-laravel': [
         {
-          text: "Overviwe",
+          text: "Overview",
           collapsed: false,
           items: [
             {
-              text: "Overviwe", link: "/dashkit-laravel/overview",
+              text: "Overview", link: "/dashkit-laravel/overview",
             }
           ]
         },
@@ -204,7 +204,7 @@ export default defineConfig({
               ]
             },
             {
-              text: "blog",
+              text: "Blog",
               collapsed: false,
               items: [
                 {

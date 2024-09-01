@@ -7308,7 +7308,7 @@ function doWatch(source, cb, {
   }
   if (deep !== void 0 && typeof deep === "number") {
     warn$1(
-      `watch() "deep" option with number value will be used as watch depth in future versions. Please use a boolean instead to avoid potential breakage.`
+      `watch() "deep" option with number value will be used as watch depth in features  versions. Please use a boolean instead to avoid potential breakage.`
     );
   }
   if (!cb) {
@@ -11479,4 +11479,4 @@ vue/dist/vue.runtime.esm-bundler.js:
   * @license MIT
   **)
 */
-//# sourceMappingURL=chunk-SBJ3TJEH.js.map
+//# sourceMappingURL=chunk-PAUCAATC.js.map

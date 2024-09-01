@@ -1,6 +1,6 @@
 ## Payment History
 ---
-Key future include:
+Key features  include:
 
 - All payment history
 

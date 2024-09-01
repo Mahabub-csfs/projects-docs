@@ -1,7 +1,7 @@
 ## Email Inbox
 
 ---
-Key future include:
+Key features  include:
 
 - Email menu
 - Email list
@@ -13,7 +13,7 @@ Key future include:
  ## Compose Email 
 
 ---
-Key future include:
+Key features  include:
 
 - Compose email
 
@@ -25,7 +25,7 @@ Key future include:
   ## Read Email 
 
 ---
-Key future include:
+Key features  include:
 
 - Read email section with necessary option
 

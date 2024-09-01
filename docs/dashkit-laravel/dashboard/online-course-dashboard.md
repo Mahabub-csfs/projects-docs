@@ -1,6 +1,6 @@
 ## Online Course Dashboard
 ---
-Key future include:
+Key features  include:
 
 - Total courses, total mentors, total students, total enrolls progress card
 - Average course selling bar-chart

@@ -34,7 +34,7 @@ import {
   version,
   watch,
   watchEffect
-} from "./chunk-SBJ3TJEH.js";
+} from "./chunk-PAUCAATC.js";
 
 // node_modules/vitepress/lib/vue-demi.mjs
 var isVue2 = false;
@@ -7701,7 +7701,7 @@ var DEFAULT_UNITS = [
 var DEFAULT_MESSAGES = {
   justNow: "just now",
   past: (n) => n.match(/\d/) ? `${n} ago` : n,
-  future: (n) => n.match(/\d/) ? `in ${n}` : n,
+  features : (n) => n.match(/\d/) ? `in ${n}` : n,
   month: (n, past) => n === 1 ? past ? "last month" : "next month" : `${n} month${n > 1 ? "s" : ""}`,
   year: (n, past) => n === 1 ? past ? "last year" : "next year" : `${n} year${n > 1 ? "s" : ""}`,
   day: (n, past) => n === 1 ? past ? "yesterday" : "tomorrow" : `${n} day${n > 1 ? "s" : ""}`,
@@ -7750,7 +7750,7 @@ function formatTimeAgo(from, options = {}, now2 = Date.now()) {
     const val = getValue2(diff2, unit);
     const past = diff2 > 0;
     const str = applyFormat(unit.name, val, past);
-    return applyFormat(past ? "past" : "future", str, past);
+    return applyFormat(past ? "past" : "features ", str, past);
   }
   function applyFormat(name, val, isPast) {
     const formatter = messages[name];

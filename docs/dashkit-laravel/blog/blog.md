@@ -1,6 +1,6 @@
 ## Blog
 ---
-Key future include:
+Key features  include:
 
 - Blog card
 

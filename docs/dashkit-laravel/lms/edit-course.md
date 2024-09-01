@@ -1,6 +1,6 @@
 ## Edit Course
 ---
-Key future include:
+Key features  include:
 
 
 - Edit course form

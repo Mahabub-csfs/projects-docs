@@ -1,6 +1,6 @@
 ## Analytic Dashboard
 ---
-Key future include:
+Key features  include:
 
 - Section overview
 - Active users

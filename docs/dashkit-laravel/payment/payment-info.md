@@ -1,8 +1,8 @@
 ## Payment Info
 ---
-Key future include:
+Key features  include:
 
-- Total transactions cad
+- Total transactions card
 - Total Balance
 - Payment history
 

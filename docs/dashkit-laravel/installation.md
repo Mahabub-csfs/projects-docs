@@ -4,7 +4,7 @@
 
 Before installing our script, ensure that your server meets the following requirements:
 
-- Apache, another compatible web server
+- Apache or other compatible web server
 - PHP >= 8.1 or higher
 - MySQL Database server
 - Vite
