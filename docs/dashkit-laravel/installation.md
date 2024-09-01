@@ -13,6 +13,25 @@ Before installing our script, ensure that your server meets the following requir
 
 On this project, we're using the `Laravel 11.x.` Please go to Laravel documentation page for more information.
 
+## Local Installation
+
+01. NPM package Install
+02. NPM Devlopment
+03. Live project locally
+
+```
+npm install
+npm run dev
+php artisan serve   
+```
+
+
+## Production Installation
+```
+npm build
+
+```
+
 ## Step O1
 
 Now login to you cPanel and go to > MySQL® Database Wizard
