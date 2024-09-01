@@ -15,6 +15,7 @@ Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will 
 
 ## Highlight Features
 
+- Fully customize by Component.
 - LMS-Admain Dashboard
 - Analytic Dashboard
 - Online Course Dashboard
@@ -47,11 +48,11 @@ Once you Purchase Dashkit Laravel Premium tailwind Dashboard Template, you will 
 
 PHP platform based on Laravel Framework 11.x
 
-Created:  1 September 2024
+Created: 1 September 2024
 
 By: CodexShaper
 
-Email: support@codexshaper.com
+Email: codexshaper@support.com
 
 ---
 

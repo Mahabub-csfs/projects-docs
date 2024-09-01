@@ -35,7 +35,7 @@ npm run dev
 php artisan serve
 ```
 
-Go to `.env` file. given your database credential and import our `dashkit.sql` file.
+Go to `.env` file. Given your database credential and import our `dashkit.sql` file.
 
 ```
     DB_CONNECTION=mysql
@@ -84,7 +84,23 @@ Database create is done, keep database user, database name, database password in
 
 ![src](/assets/dashkit/completed-user.png)
 
-<b style="color:red">Note</b>: Import our demo `dashkit.sql` file.
+## Step 07
+
+Go to > phpMyAdmin
+
+![src](/assets/dashkit/phpmyadmin.png)
+
+## Step 07
+
+You will see your created database name.
+
+![src](/assets/dashkit/database.png)
+
+## Step 08
+
+Selected your database name and import our `dashkit.sql` file.
+
+![src](/assets/dashkit/database-import.png)
 
 ## Upload Application
 
@@ -115,7 +131,7 @@ Go to `.env` file. given your database credential.
 
 ## htaccess File
 
-Create a .htaccess into project directory, and place the code.
+Create a .htaccess into project root directory, and place the code.
 
 ```
 <IfModule mod_rewrite.c>
