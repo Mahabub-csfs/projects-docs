@@ -1,0 +1,257 @@
+# Installation
+
+## Requirements
+
+Before installing our script, ensure that your server meets the following requirements:
+
+- Apache, nginx, or another compatible web server
+- PHP >= 8.1 or higher
+- MySQL Database server
+- `PDO` PHP extension
+- `OpenSSL` PHP extension
+- `mbstring` PHP extension
+- `exif` PHP extension
+- `fileinfo` PHP extension
+- `xml` PHP extension
+- `Ctype` PHP extension
+- `JSON` PHP extension
+- `Tokenizer` PHP extension
+- `cURL` PHP extension
+- `zip` PHP extension
+- `iconv` PHP extension
+- Ensure the `mod_rewrite` Apache module is enabled
+
+## PHP Configuration
+
+Open your php configuration file `php.ini` and change the following settings.
+
+```
+memory_limit = 256M
+max_execution_time = 300
+
+```
+
+### TIP
+
+On this project, we're using the `Laravel 11.x.` Please go to Laravel documentation page for more information.
+
+## Step O1
+
+Now login to you cPanel and go to > MySQL® Database Wizard
+
+![src](/assets/lms/cpanel.png)
+
+## Step O2
+
+Create Database
+
+![src](/assets/lms/create-database.png)
+
+## Step O3
+
+
+Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.
+
+![src](/assets/dashkit/create-user.png)
+
+## Step O4
+
+Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.
+
+![src](/assets/dashkit/create-user.png)
+
+## Step 05
+
+Add user to the database. Check all privileges and click make changes. Then click “Next Step”
+
+![src](/assets/dashkit/user-privileges.png)
+
+## Step 06
+
+Database create is done, keep database user, database name, database password in a note.
+
+![src](/assets/dashkit/completed-user.png)
+
+## Upload Application
+
+Now upload file, Your selected folder
+
+## Step 01
+
+![src](/assets/lms/file-upload.png)
+
+## Step 02
+
+Extract zip file in server
+
+![src](/assets/lms/extract-project.png)
+
+Folder Permission
+
+## Step 01
+
+Then Go to file. And Change Fill Permission
+
+![src](/assets/lms/permission-one.png)
+
+got to bootstap directory then change permission to cache
+
+![src](/assets/lms/permission-two.png)
+
+Then Go to file. And Change Fill Permission
+
+![src](/assets/lms/permission-fours.png)
+
+ 
+
+
+#Install EduLab
+
+001
+Let's Start EduLab.
+
+![src](/assets/lms/installer/start.png)
+
+002
+
+Server Requirement Check for EduLab
+
+- The system will verify the required PHP extensions.
+- If a PHP extension is already enabled, a green check mark (✔) will appear next to it, indicating it is ready for use.
+- If a required PHP extension is not enabled, a red cross (✖) will appear, and you must enable the extension by following these steps:
+  Open your `php.ini` file.
+- Locate the corresponding line for the extension (e.g., ;extension=mbstring).
+- Remove the semicolon (;) at the beginning of the line to uncomment it.
+- Save the file and restart your web server (e.g., Apache or Nginx).
+- Once all extensions are enabled and validated with green check marks, you can proceed to the next step in the setup process.
+
+![src](/assets/lms/installer/server.png)
+
+003
+
+Folder Permission Check for EduLab
+
+- Before installation, the system will verify the required folder permissions.
+- If the required permissions are correctly set, a green check mark (✔) will appear, indicating that the folder is ready for use.
+- If the required permissions are not set, a red cross (✖) will appear, and you must grant the correct permissions by following these steps:
+- Identify the folder(s) that need permission adjustments (e.g., storage, bootstrap/cache).
+- Open your terminal and navigate to your project directory.
+- Run the following command to grant the necessary permissions:
+
+```
+    chmod -R 775 storage bootstrap/cache
+    chown -R www-data:www-data storage bootstrap/cache
+
+```
+
+- Replace www-data with your web server user if different.
+- Verify the permissions after running the command.
+- Once all permissions are correctly set and validated with green check marks, you can proceed to the next step in the setup process.
+
+![src](/assets/lms/installer/permission.png)
+
+004
+
+Environment setting of your application
+
+## Note
+
+`App debug will be always false for production.`
+
+This step allows you to configure your application
+environment easily through a graphical interface. Follow these instructions:
+
+```
+App Debug:
+
+Toggle between True (enabled) or False (disabled).
+Debug mode helps identify issues during development and
+should be turned off (False) in production for security reasons.
+
+```
+
+```
+App Name:
+
+Enter your application's name (e.g., "EduLab").
+This will be displayed in system notifications and logs.
+
+```
+
+```
+App Environment:
+
+Select the appropriate environment for your application:
+Local: For development purposes.
+Staging: For pre-production testing.
+Production: For the live environment.
+
+```
+
+![src](/assets/lms/installer/environment.png)
+
+005
+
+## Database Connection of Your Application
+
+- The database connection step is crucial for linking your application to a database.
+- Follow the steps below to configure the database connection:
+
+## Provide Database Credentials:
+
+- Fill in the required fields for your database connection:
+- Database Host: Enter the database server's IP address or hostname `(e.g., 127.0.0.1` for local setup).
+- Database Port: Specify the port number your database server uses `(default for MySQL: 3306)`.
+- Database Name: Enter the name of your database.
+- Username: Provide the username for accessing the database.
+- Password: Enter the corresponding password for the database user.
+
+![src](/assets/lms/installer/database.png)
+
+## Import the demo content.
+
+- The demo content helps you quickly set up your application with pre-configured settings,
+  data, and layouts. Follow these steps to import the demo content:
+
+- If You not, Don't check.
+
+![src](/assets/lms/installer/demo-import.png)
+
+## Finishing the Process and Viewing Demo Credentials
+
+After completing the installation process, you can access the demo
+credentials to log in and explore the application. Follow these steps:
+
+![src](/assets/lms/installer/final.png)
+
+## View Demo Credentials:
+
+Admin Login:
+
+```
+Email: admin@gmail.com
+Password: 123456
+```
+
+Instructor Login:
+
+```
+Email: instructor@gmail.com
+Password: 123456
+```
+
+Organization Login:
+
+```
+Email: organization@gmail.com
+Password: 123456
+
+```
+
+Student Login:
+
+```
+Email: student@gmail.com
+Password: 123456
+
+```
