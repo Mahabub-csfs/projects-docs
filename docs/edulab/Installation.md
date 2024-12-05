@@ -49,7 +49,6 @@ Create Database
 
 ## Step O3
 
-
 Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.
 
 ![src](/assets/dashkit/create-user.png)
@@ -102,8 +101,23 @@ Then Go to file. And Change Fill Permission
 
 ![src](/assets/lms/permission-fours.png)
 
- 
+## <b style="color:red">Deploy Server</b>
 
+To move `index.php` out of the public folder in a Laravel project,
+you can adjust the directory structure and replace this code in `index.php`
+
+```
+
+// Register the Composer autoloader...
+
+require __DIR__.'/vendor/autoload.php';
+
+// Bootstrap Laravel and handle the request...
+
+(require_once __DIR__.'/bootstrap/app.php')
+    ->handleRequest(Request::capture());
+
+```
 
 #Install EduLab
 
