@@ -238,6 +238,29 @@ credentials to log in and explore the application. Follow these steps:
 
 ![src](/assets/lms/installer/final.png)
 
+
+
+
+## Accessing the Storage Settings in the Admin Dashboard:
+
+- Navigate to the Backend Setting Menu:
+
+- Log in to the admin dashboard.
+Go to Backend Settings.
+Click on ``Storage Link``:
+
+- In the Backend Settings menu, find and click on the Storage Link option.
+View All Images:
+
+- Once you click on the Storage Link, all the images available on your website will be displayed.
+- You can manage these images as per your requirements.
+
+
+![src](/assets/lms/installer/storage-link.png)
+
+
+
+
 ## View Demo Credentials:
 
 Admin Login:

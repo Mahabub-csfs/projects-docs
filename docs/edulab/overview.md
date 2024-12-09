@@ -20,7 +20,7 @@ EduLab is an online platform where the site admin and course instructors can cre
 - E-mail Template Manage
 - Noticeboard Manage
 - Quiz Manage
-- Module 
+- Module
 - Multiple Theme Setting
 - Translatror
 
@@ -59,7 +59,7 @@ EduLab is the best solution for any course-based online educational platform. Ed
 
 ## Admin Dashboard
 
-Backend URL: [http://127.0.0.1:8000/lms/admin/login]
+Backend URL: [(domain)/login]
 
 ```
 Username: admin@gmail.com
@@ -69,7 +69,7 @@ Password: 123456
 
 ## Organization Dashboard
 
-Backend URL: [http://127.0.0.1:8000/login]
+Backend URL:[(domain)/login]
 
 ```
 Username: organization@gmail.com
@@ -78,7 +78,7 @@ Password: 123456
 
 ## Instructor Dashboard
 
-Backend URL: [http://127.0.0.1:8000/login]
+Backend URL: [(domain)/login]
 
 ```
 Username: instructor@gmail.com
@@ -88,10 +88,10 @@ Password: 123456
 
 ## Student Dashboard
 
-Backend URL: [http://127.0.0.1:8000/login]
+Backend URL: [(domain)/login]
 
 ```
-Username: organization@gmail.com
+Username: student@gmail.com
 Password: 123456
 
 ```
