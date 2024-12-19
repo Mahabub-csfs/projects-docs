@@ -1,38 +1,41 @@
-## How to create Noticeboard
+## Notice Board
 
-Go to Admin->noticeboard
+Go to Admin->Notice Board
 
-As an admin, you can send notices student, instructor and organization.
+The Notice Board Management feature provides to manage Notice Board. Administrators can:
 
-![src](/assets/lms/images/notices-board-list.png)
+## <strong>Notice Board list</strong>
 
-**Figure 001** : <small>noticeboard</small>
+![src](/assets/lms/images/noticeboard/list.png)
 
-In this panel, you can add new, update, or remove. Also, you can overview:
+## <strong>Create new noticeboard</strong>
 
-<pre>
+###### Step 01: Click on `Add New` button
 
-Notice title	
-Massage
-Date
-Action
+![src](/assets/lms/images/noticeboard/add.png)
 
-</pre>
+###### Step 02: Fill the information and click the `Save` button
 
-To send a new noticeboard, you have to click the `Add` button
+![src](/assets/lms/images/noticeboard/add-new.png)
 
-![src](/assets/lms/images/add-notices-board.png)
+## View Notice
 
-**Figure 002** : <small>New Noticeboard</small>
+###### Step 01: Click on view button
 
-Now you have to provide:
+![src](/assets/lms/images/noticeboard/view.png)
 
-<pre>
-    Notice title 
-    Type - student, instructor, student-instructor , organization
-    Massage
-</pre>
+###### You will see a popup. Where you should see details about the notice.
 
-![scr](/assets/lms/images/notice-form.png)
+## Edit
 
-Then click the "submit" button to create a new blog.
+###### Step 01: Click on edit button
+
+![src](/assets/lms/images/noticeboard/edit.png)
+
+## Permanent Delete
+
+###### Step 01: Click on the delete button
+
+![src](/assets/lms/images/noticeboard/delete.png)
+
+###### Click the confirm button of the popup to agree that the deleted data will destroy for forever and you never restore them.

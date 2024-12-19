@@ -1,9 +1,8 @@
-## Assignments
+## Notification
 
-You can check your notifications form here.
+## <strong> Notification list</strong>
 
-![src](../../assets/lms/images/instructor/notifications.png)
+- when your course from admin, get notification
+- when your student message , get notification etc.
 
-And you can change notifications view status but clicking on toggle button.
-
-![src](../../assets/lms/images/instructor/notifications_status.png)
+![src](/assets/lms/images/ins-dashboard/notification/list.png)

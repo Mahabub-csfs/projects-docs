@@ -2,22 +2,13 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Documentation",
-  description: "A VitePress Site",
+  // title: 'assets/lms/dark-logo.svg',
+  title: " ",
+  description: "",
   themeConfig: {
+    logo: "assets/lms/dark-logo.svg",
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      {
-        text: "Documentation",
-        items: [
-          { text: "Holaa", link: "/holaa/" },
-          { text: "EduLab", link: "/edulab/overview" },
-          { text: "Dashkit-laravel", link: "/dashkit-laravel/overview" },
-        ],
-      },
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    nav: [{ text: "Documentation", link: "/edulab/overview" }],
 
     sidebar: {
       "/holaa/": [
@@ -75,7 +66,16 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: "Language", link: "/edulab/admin/language" },
-                { text: "Localization", link: "/edulab/admin/localization" },
+                {
+                  text: "Localization",
+                  collapsed: true,
+                  items: [
+                    { text: "Country", link: "/edulab/admin/country" },
+                    { text: "State", link: "/edulab/admin/state" },
+                    { text: "City", link: "/edulab/admin/city" },
+                    { text: "Time Zone", link: "/edulab/admin/time-zone" },
+                  ],
+                },
                 {
                   text: "Icon & Provider ",
                   link: "/edulab/admin/icon-provider",
@@ -99,7 +99,7 @@ export default defineConfig({
                       text: "Create Curriculum",
                       link: "/edulab/admin/curriculum-course",
                     },
-                    { text: "Topic Type", link: "/edulab/admin/topic-type" },
+                    { text: "Topic", link: "/edulab/admin/topic" },
                     { text: "Create Quiz", link: "/edulab/admin/quiz-create" },
                     {
                       text: "Create Course Bundle",
@@ -151,18 +151,20 @@ export default defineConfig({
                   text: "Backend Settings",
                   link: "/edulab/admin/backend-settings",
                 },
+            
+
                 {
-                  text: "Theme Settings",
-                  link: "/edulab/admin/theme-settings",
+                    text: "Theme Settings",
+                    collapsed: false,
+                    items: [
+                      {
+                        text: "Theme Activation",
+                        link: "/edulab/admin/theme/theme-settings",
+                      },
+                      { text: "Setting", link: "/edulab/admin/theme/setting" },
+                    ],
                 },
-                {
-                  text: "Forum Manage",
-                  collapsed: false,
-                  items: [
-                    { text: "Forum", link: "/edulab/admin/forum" },
-                    { text: "Sub Forum", link: "/edulab/admin/sub-forum" },
-                  ],
-                },
+
                 {
                   text: "Staff Manage",
                   collapsed: false,
@@ -201,12 +203,12 @@ export default defineConfig({
                       link: "/edulab/instructor/create-curriculum",
                     },
                     {
-                      text: "Topic Type",
-                      link: "/edulab/instructor/topic-type",
+                      text: "Topic",
+                      link: "/edulab/instructor/topic",
                     },
                     {
                       text: "Create Quiz",
-                      link: "/edulab/instructor/create-quiz",
+                      link: "/edulab/instructor/quiz-create",
                     },
                     {
                       text: "Create Course Bundle",
@@ -235,8 +237,20 @@ export default defineConfig({
                   link: "/edulab/instructor/notifications",
                 },
                 {
-                  text: "Support Ticket",
-                  link: "/edulab/instructor/support-ticket",
+                    text: "Support Ticket",
+                    collapsed: true,
+                    items: [
+                      {
+                        text: "Support Ticket",
+                        link: "/edulab/instructor/support-ticket",
+                      },
+
+                      {
+                        text: "Student Support",
+                        link: "/edulab/instructor/student-support",
+                      },
+                  
+                    ],
                 },
               ],
             },
@@ -245,48 +259,98 @@ export default defineConfig({
               text: "Organization Dashboard",
               collapsed: true,
               items: [
+
+                {
+                  text: "Instructor Manage",
+                  link: "/edulab/organization/instructor-manage.md",
+                },
                 {
                   text: "Course Manage",
                   collapsed: true,
                   items: [
-                    { text: "Course", link: "/edulab/instructor/course" },
+                    { text: "Course", link: "/edulab/organization/course" },
                     {
                       text: "Create Curriculum",
-                      link: "/edulab/instructor/create-curriculum",
+                      link: "/edulab/organization/create-curriculum",
                     },
                     {
-                      text: "Topic Type",
-                      link: "/edulab/instructor/topic-type",
+                      text: "Topic",
+                      link: "/edulab/organization/topic",
                     },
                     {
                       text: "Create Quiz",
-                      link: "/edulab/instructor/create-quiz",
+                      link: "/edulab/organization/create-quiz",
                     },
                     {
                       text: "Create Course Bundle",
-                      link: "/edulab/instructor/bundle-course",
+                      link: "/edulab/organization/bundle-course",
                     },
                   ],
                 },
                 {
                   text: "Student Manage",
-                  link: "/edulab/instructor/student-manage",
+                  link: "/edulab/organization/student-manage",
                 },
-                
+
                 {
                   text: "Noties Board",
-                  link: "/edulab/instructor/notiesboard",
+                  link: "/edulab/organization/notiesboard",
                 },
                 {
                   text: "Notifications",
-                  link: "/edulab/instructor/notifications",
+                  link: "/edulab/organization/notifications",
                 },
                 {
                   text: "Support Ticket",
-                  link: "/edulab/instructor/support-ticket",
-                },
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Support Ticket",
+                      link: "/edulab/organization/support-ticket",
+                    },
+                  ],
+              },
               ],
             },
+
+
+            {
+              text: "Student Dashboard",
+              collapsed: true,
+              items: [
+                {
+                  text: "Course Manage",
+                  link: "/edulab/student/course-manage" 
+                
+                },
+              
+                {
+                  text: "Notifications",
+                  link: "/edulab/student/notifications",
+                },
+                {
+                  text: "Quizzes",
+                  link: "/edulab/student/quizzes",
+                },
+                {
+                  text: "Support Ticket",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Support Ticket",
+                      link: "/edulab/student/support-ticket",
+                    },
+
+                    {
+                      text: "Course Support",
+                      link: "/edulab/student/course-support",
+                    },
+                  ],
+              },
+              ],
+            },
+
+
           ],
         },
       ],
@@ -431,4 +495,9 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
+
+  head: [
+    ["link", { rel: "stylesheet", href: "/assets/css/custom.css" }],
+    ["script", { src: "/assets/js/custom.js" }],
+  ],
 });

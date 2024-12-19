@@ -49,25 +49,19 @@ Create Database
 
 ## Step O3
 
-Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.
+Create Database Users, do not forget to keep your database user `password`, we will use this `password` while we run installation wizard.
 
 ![src](/assets/dashkit/create-user.png)
 
-## Step O4
-
-Create Database Users, do not forget to keep your database user password, we will need this while we run installation wizard.
-
-![src](/assets/dashkit/create-user.png)
-
-## Step 05
+## Step 04
 
 Add user to the database. Check all privileges and click make changes. Then click “Next Step”
 
 ![src](/assets/dashkit/user-privileges.png)
 
-## Step 06
+## Step 05
 
-Database create is done, keep database user, database name, database password in a note.
+Database created and setup successfully. Now keep `database user`, `database name`, `database password` in a note. We need them while we run installation wizard.
 
 ![src](/assets/dashkit/completed-user.png)
 
@@ -87,17 +81,17 @@ Extract zip file in server
 
 Folder Permission
 
-## Step 01
+## Step 03
 
-Then Go to file. And Change Fill Permission
+Then go to the `root` directory and Change the `bootstrap` folder permission to `0755`
 
 ![src](/assets/lms/permission-one.png)
 
-got to bootstap directory then change permission to cache
+After that, go to the `bootstap` directory then change `cache` folder permission to `0755`
 
 ![src](/assets/lms/permission-two.png)
 
-Then Go to file. And Change Fill Permission
+Finally, go to the `storage` directory and Change the permission of `framework` and `logs` folder to `0755`.
 
 ![src](/assets/lms/permission-fours.png)
 
@@ -119,16 +113,34 @@ require __DIR__.'/vendor/autoload.php';
 
 ```
 
-#Install EduLab
+## Recommended
+
+"When setting up the domain, ensure that the document root points to the `/public directory.`"
+This ensures that only the necessary files for public access (such as index.php) are served by the web server,
+improving security and keeping sensitive files outside the public directory.
+
+### Step 01
+
+Got to your cpanel domains list and select the domain then click on Manage button
+
+![src](/assets/lms/images/document-root/01.png)
+
+### Step 02
+
+Update your document root to `{root}/public`
+
+![src](/assets/lms/images/document-root/02.png)
+
+#Install EduLab LMS
 
 001
-Let's Start EduLab.
+Let's Start EduLab LMS.
 
 ![src](/assets/lms/installer/start.png)
 
 002
 
-Server Requirement Check for EduLab
+Server Requirement Check for EduLab LMS
 
 - The system will verify the required PHP extensions.
 - If a PHP extension is already enabled, a green check mark (✔) will appear next to it, indicating it is ready for use.
@@ -143,7 +155,7 @@ Server Requirement Check for EduLab
 
 003
 
-Folder Permission Check for EduLab
+Folder Permission Check for EduLab LMS
 
 - Before installation, the system will verify the required folder permissions.
 - If the required permissions are correctly set, a green check mark (✔) will appear, indicating that the folder is ready for use.
@@ -187,7 +199,7 @@ should be turned off (False) in production for security reasons.
 ```
 App Name:
 
-Enter your application's name (e.g., "EduLab").
+Enter your application's name (e.g., "EduLab LMS").
 This will be displayed in system notifications and logs.
 
 ```
@@ -227,7 +239,7 @@ Production: For the live environment.
 - The demo content helps you quickly set up your application with pre-configured settings,
   data, and layouts. Follow these steps to import the demo content:
 
-- If You not, Don't check.
+- Leave the box unchecked if you don't need demo content.
 
 ![src](/assets/lms/installer/demo-import.png)
 
@@ -237,29 +249,6 @@ After completing the installation process, you can access the demo
 credentials to log in and explore the application. Follow these steps:
 
 ![src](/assets/lms/installer/final.png)
-
-
-
-
-## Accessing the Storage Settings in the Admin Dashboard:
-
-- Navigate to the Backend Setting Menu:
-
-- Log in to the admin dashboard.
-Go to Backend Settings.
-Click on ``Storage Link``:
-
-- In the Backend Settings menu, find and click on the Storage Link option.
-View All Images:
-
-- Once you click on the Storage Link, all the images available on your website will be displayed.
-- You can manage these images as per your requirements.
-
-
-![src](/assets/lms/installer/storage-link.png)
-
-
-
 
 ## View Demo Credentials:
 
@@ -292,3 +281,19 @@ Email: student@gmail.com
 Password: 123456
 
 ```
+
+## Accessing the Storage Settings in the Admin Dashboard:
+
+- Navigate to the Backend Setting Menu:
+
+- Log in to the admin dashboard.
+  Go to Backend Settings.
+  Click on `Storage Link`:
+
+- In the Backend Settings menu, find and click on the Storage Link option.
+  View All Images:
+
+- Once you click on the Storage Link, all the images available on your website will be displayed.
+- You can manage these images as per your requirements.
+
+![src](/assets/lms/installer/storage-link.png)

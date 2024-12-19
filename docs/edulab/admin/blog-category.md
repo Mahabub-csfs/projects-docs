@@ -1,42 +1,53 @@
-## How to create blog category
+## Blog category
 
-Go to Admin->Blog Manage->category
+Go to Admin->Blog Manage->Category
 
-As an admin, you can add different blog category.
+The Blog category Management feature provides to manage Blog category. Administrators can:
 
-![src](/assets/lms/images/blog-category.png)
+## <strong>Blog category list</strong>
 
-**Figure 001** : <small>Category</small>
+![src](/assets/lms/images/blog-manage/category/list.png)
 
-In this panel, you can add new, update, or remove and enable /disable. Also, you can overview:
+## <strong>Create new Blog category</strong>
 
-<pre>
+###### Step 01: Click on `Add New` button
 
-Name
-Total Blog
-Action
+![src](/assets/lms/images/blog-manage/category/add.png)
 
-</pre>
+###### Step 02: Fill the information and click the `Save` button
 
-To add a new category, you have to click the `Add Category` button
+![src](/assets/lms/images/blog-manage/category/add-new.png)
 
-![src](/assets/lms/images/add-blog-category.png)
+## Edit
 
-**Figure 002** : <small>New Category</small>
- 
-Now you have to provide:
+###### Step 01: Click on edit button
 
-<pre>
+![src](/assets/lms/images/blog-manage/category/edit.png)
 
-    Name
-   
+## Delete
 
-</pre>
+###### Step 01: Click the delete button
 
+![src](/assets/lms/images/blog-manage/category/delete.png)
 
+###### Don't worry we just move the data into trash and you can restore easily from trash tab.
 
+## Trash
 
+###### Click on trash button to see trashed Blog categorys.
 
-![scr](/assets/lms/images/blog-category-form.png)
+![src](/assets/lms/images/blog-manage/category/trash-list.png)
 
-Then click the "submit" button to create a new category.
+## Restore
+
+###### Click on the `restore` button to restore and republish the deleted Blog category.
+
+![src](/assets/lms/images/blog-manage/category/restore.png)
+
+## Permanent Delete
+
+###### Step 01: Click on the delete button
+
+![src](/assets/lms/images/blog-manage/category/trash-delete.png)
+
+###### Click the confirm button of the popup to agree that the deleted data will destroy for forever and you never restore them.

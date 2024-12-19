@@ -1,44 +1,53 @@
-## How to create Testimonial
+## Testimonial
 
 Go to Admin->Testimonial
 
-As an admin, you can add Testimonial various client Feedback.
+The testimonial Management feature provides to manage testimonial. Administrators can:
 
-![src](/assets/lms/images/testimonial-list.png)
+## <strong>Testimonial list</strong>
 
-**Figure 001** : <small>Testimonial</small>
+![src](/assets/lms/images/testimonial/list.png)
 
-In this panel, you can add new, update, or remove and enable /disable. Also, you can overview:
+## <strong>Create new testimonial</strong>
 
-<pre>
+###### Step 01: Click on `Add New` button
 
-Image
-Name
-Designation	
-Rating
-Status
-Action
+![src](/assets/lms/images/testimonial/add.png)
 
-</pre>
+###### Step 02: Fill the information and click the `Save` button
 
-To add a new testimonial, you have to click the `Add` button
+![src](/assets/lms/images/testimonial/add-new.png)
 
-![src](/assets/lms/images/add-testimonial.png)
+## Edit
 
-**Figure 002** : <small>New Testimonial</small>
+###### Step 01: Click on edit button
 
-Now you have to provide:
+![src](/assets/lms/images/testimonial/edit.png)
 
-<pre>
+## Delete
 
-    Name 
-    Designation 
-    Rating 
-    Description
-    Image
+###### Step 01: Click the delete button
 
-</pre>
+![src](/assets/lms/images/testimonial/delete.png)
 
-![scr](/assets/lms/images/testimonial-form.png)
+###### Don't worry we just move the data into trash and you can restore easily from trash tab.
 
-Then click the "submit" button to create a new testimonial.
+## Trash
+
+###### Click on trash button to see trashed testimonials.
+
+![src](/assets/lms/images/testimonial/trash-list.png)
+
+## Restore
+
+###### Click on the `restore` button to restore and republish the deleted testimonial.
+
+![src](/assets/lms/images/testimonial/restore.png)
+
+## Permanent Delete
+
+###### Step 01: Click on the delete button
+
+![src](/assets/lms/images/testimonial/trash-delete.png)
+
+###### Click the confirm button of the popup to agree that the deleted data will destroy for forever and you never restore them.

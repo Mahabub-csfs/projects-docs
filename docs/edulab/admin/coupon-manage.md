@@ -1,44 +1,77 @@
-## How to create course coupons
+## Coupons
 
-Go to Admin->marketing->Coupon
+Go to Admin->Marketing->Coupons
 
-As an admin, you can add different kinds of coupons.
+The Coupon Management feature provides to manage Coupon. Administrators can:
 
-![src](/assets/lms/images/coupon-list.png)
+## <strong>Coupon list</strong>
 
-**Figure 001** : <small>Coupon</small>
+![src](/assets/lms/images/coupon/list.png)
 
-In this panel, you can add new, update, or remove and enable /disable. Also, you can overview:
+## <strong>Coupon Status</strong>
 
-<pre>
+###### Step 01: Check on `Checkbox` for anable/disable coupon.
 
-Name
-code
-Coupon Type
-Discount Type
+![src](/assets/lms/images/coupon/status.png)
 
-</pre>
+## <strong>Create new coupon</strong>
 
-To add a new coupon, you have to click the `Add` button
+###### Step 01: Click on `Add New` button
 
-![src](/assets/lms/images/add-coupon.png)
+![src](/assets/lms/images/coupon/add.png)
 
-**Figure 002** : <small>New Coupon</small>
+## Coupon Type `Globally`
 
-Now you have to provide:
+![src](/assets/lms/images/coupon/add-new-global.png)
 
-<pre>
+## Coupon Type `Category`
 
-    Name
-    code
-    Coupon Type
-    Discount Type - percent, Discount 
-    Useable
-    Max Amount
-    Expiration Date
+![src](/assets/lms/images/coupon/add-new-category.png)
 
-</pre>
+## Coupon Type `Course`
 
-![scr](/assets/lms/images/coupon-form.png)
+![src](/assets/lms/images/coupon/add-new-course.png)
 
-Then click the "submit" button to create a new coupon.
+## Discoun Type `Percent`
+
+![src](/assets/lms/images/coupon/add-new-percent.png)
+
+## Discoun Type `Fixed`
+
+![src](/assets/lms/images/coupon/add-new-fixed.png)
+
+## Max Usable time
+
+![src](/assets/lms/images/coupon/add-new-max-usable-time.png)
+
+###### If you want to set a coupone use time.
+
+###### EX. If you set 5. That's mean it can be used 5 time by a student.
+
+## Minimum Order
+
+![src](/assets/lms/images/coupon/add-new-minimum-order.png)
+
+###### If you want to set a coupone only at minimum purchase.
+
+###### EX. If you set $150. That's mean it can be used only when some one will purchase at least $150.
+
+## Expire Date
+
+![src](/assets/lms/images/coupon/add-new-expire.png)
+
+###### If you want to set a coupone only for a certain time.
+
+## Edit
+
+###### Step 01: Click on edit button
+
+![src](/assets/lms/images/coupon/edit.png)
+
+## Permanent Delete
+
+###### Step 01: Click on the delete button
+
+![src](/assets/lms/images/coupon/delete.png)
+
+###### Click the confirm button of the popup to agree that the deleted data will destroy for forever and you never restore them.

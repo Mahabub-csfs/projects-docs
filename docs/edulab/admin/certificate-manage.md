@@ -1,3 +1,10 @@
-![src](/assets/lms/images/certificate-manage-01.png)
+## Certificate Manage
 
-![src](/assets/lms/images/certificate-manage-02.png)
+Go to Admin->Certificate
+
+## Update
+
+###### Step 01: You can change Certificate Template
+
+![src](/assets/lms/images/certificate/certificate.png)
+![src](/assets/lms/images/certificate/certificate-one.png)

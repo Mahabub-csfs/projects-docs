@@ -1,40 +1,53 @@
-## How to create blog
+## Blog
 
-Go to Admin->Blog Manage->blog
+Go to Admin->Blog Manage->Category
 
-As an admin, you can add different blog.
+The Blog Management feature provides to manage Blog. Administrators can:
 
-![src](/assets/lms/images/blog-list.png)
+## <strong>Blog list</strong>
 
-**Figure 001** : <small>blog</small>
+![src](/assets/lms/images/blog-manage/blog/list.png)
 
-In this panel, you can add new, update, or remove and enable /disable. Also, you can overview:
+## <strong>Create new Blog</strong>
 
-<pre>
+###### Step 01: Click on `Add New` button
 
-Title
-Author
-Published Date
-Status
-Action
+![src](/assets/lms/images/blog-manage/blog/add.png)
 
-</pre>
+###### Step 02: Fill the information and click the `Save` button
 
-To add a new blog, you have to click the `Add Blog` button
+![src](/assets/lms/images/blog-manage/blog/add-new.png)
 
-![src](/assets/lms/images/add-blog.png)
+## Edit
 
-**Figure 002** : <small>New blog</small>
+###### Step 01: Click on edit button
 
-Now you have to provide:
+![src](/assets/lms/images/blog-manage/blog/edit.png)
 
-<pre>
-    Title
-    Blog Category
-    Blog Description
-    Image 
-</pre>
+## Delete
 
-![scr](/assets/lms/images/blog-form.png)
+###### Step 01: Click the delete button
 
-Then click the "submit" button to create a new blog.
+![src](/assets/lms/images/blog-manage/blog/delete.png)
+
+###### Don't worry we just move the data into trash and you can restore easily from trash tab.
+
+## Trash
+
+###### Click on trash button to see trashed Blogs.
+
+![src](/assets/lms/images/blog-manage/blog/trash-list.png)
+
+## Restore
+
+###### Click on the `restore` button to restore and republish the deleted Blog.
+
+![src](/assets/lms/images/blog-manage/blog/restore.png)
+
+## Permanent Delete
+
+###### Step 01: Click on the delete button
+
+![src](/assets/lms/images/blog-manage/blog/trash-delete.png)
+
+###### Click the confirm button of the popup to agree that the deleted data will destroy for forever and you never restore them.
